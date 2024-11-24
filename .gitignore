@@ -1,8 +1,17 @@
+# Ignore node_modules
 node_modules/
-/test-results/
-/playwright-report/
-/blob-report/
-/playwright/.cache/
+
+# Ignore environment variable files
 .env
-/allure-report
-/allure-results
+
+# Ignore VSCode settings folder
+.vscode/
+
+# Ignore Playwright reports
+playwright-report/
+
+# Ignore test results
+test-results/
+
+allure-report/
+allure-results
