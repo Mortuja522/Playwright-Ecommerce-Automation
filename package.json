@@ -1,0 +1,27 @@
+{
+  "name": "ecommerce-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test --headed",
+    "bdd": "cucumber-js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/pretty-formatter": "^1.0.1",
+    "allure-playwright": "^3.0.6",
+    "cucumber-html-reporter": "^7.2.0",
+    "dotenv": "^16.4.5",
+    "playwright": "^1.49.0",
+    "puppeteer": "^23.9.0",
+    "strip-ansi": "^7.1.0"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.1.0",
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^22.9.1"
+  }
+}
